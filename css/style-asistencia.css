@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.con_re_asis {
+    background-color: #edefee;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.con_re_block {
+    display: block;
+    width: 100%;
+}
+h2.titulotext {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px;
+}
+form#formasisd {
+    padding: 20px;
+}
+.con_form_caja_grid {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.con_form_caja_hora_fecha {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.con_form_caja_hijo_hore_fecha_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+input#textentrada {
+    text-align: center;
+}
+select#selectoption {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #86898c;
+    width: 100%;
+    background-color: #b6b9be;
+    color: #86898c;
+}
+input#idasistenc {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #86898c;
+    width: 100%;
+    background-color: #b6b9be;
+    color: #86898c;
+}
+.con_form_caja_submit {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+input#Submitenvia {
+    background-color: #c0efcd;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.fecha_con {
+    display: flex;
+}
+.hora_con {
+    display: flex;
+}
+input#textfecha {
+    margin: 10px;
+}
+input#textentrada {
+    margin: 10px;
+}
+.con_form_caja_hijo_hijo_hora_fecha{
+    margin:20px;
+    text-align: center;
+    width: 100%;
+}
+.con_form_caja_hijo_hijo_hora_fecha_{
+    margin:20px;
+    text-align: center;
+
+}
+.confle {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 1010px){
+    .con_form_caja_grid {
+        display: block;
+    }
+    .con_form_caja_hijo_hore_fecha_grid {
+        display: block;
+    }
+}
+table.table_asis {
+    width: 100%;
+    padding: 10px;
+    text-align: revert;
+    border-collapse: collapse;
+    border-top: 2px solid;
+}
+thead {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+th{
+    padding: 5px;
+}
+th {
+    padding: 5px;
+    border-right: 1px solid;
+}
+th.no_border_right {
+    border-right: none;
+}
+.con_re_asis_regis {
+    background-color: #edefee;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+td {
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid;
+}
+.ne_bor{
+    border-right: none;
+}
+ul.ul_buscar {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+}
+li.li_buscar {
+    margin: 10px;
+    width: 100%;
+}
+li.li_buscar.labe {
+    width: 10%;
+}
+li.li_buscar.sub {
+    width: 10%;
+}
+input#buscar_re {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #dce0e1;
+    border: 1px solid #636969;
+}
+.dubm{
+    padding: 10px;
+    background-color: #636969;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dubm:hover{
+    background-color: #575c5c;
+}
+@media (max-width: 800px){
+    .con_re_asis_regis {
+        width: 100%;
+    }
+}

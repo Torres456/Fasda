@@ -1,0 +1,41 @@
+img.imgCabecera {
+    width: 20vh;
+}
+nav.nabvar_menu {
+    background-color: #303030;
+}
+.nabvar_ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    border-top: 1px solid white;
+}
+.nabvar_ul > li > a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+}
+.nabvar_ul > li:hover{
+    background-color: rgb(86, 86, 88);
+}
+.sub_menu_navbar{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 150px;
+    background-color: rgba(32, 32, 34, 0.795);
+}
+ .nabvar_ul li:hover .sub_menu_navbar{
+    display: block;
+}
+.sub_menu_navbar li:hover{
+    background-color: rgb(44, 43, 43);
+}
+.sub_menu_navbar li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}
